@@ -1,0 +1,116 @@
+# Tmp files to always-ignore extensions
+*.diff
+*.err
+*.rej
+*.swo
+*~
+*.sass-cache
+*.orig
+.deploy/
+# OS
+.DS_Store
+Thumbs.db
+/ae/
+# Editors
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+/.redcar
+/.deploy
+/.config
+/.keys
+/nbproject
+/.project
+/.idea
+/.eclipse
+/.psd
+*.vi
+.aws/
+packages/app/.env
+packages/app/.env.sample
+.tmp.*.env
+!packages/app/.env.sample
+
+
+!.env.template
+
+
+# logs files
+*.log
+docker/data/*
+docker/mongo/*
+node_modules
+database/*.sql
+.npmrc
+*.code-workspace
+local-*.*
+
+.prettierrc
+.parcel-cache
+
+frontend/build
+admin/build
+dist/
+frontend/static/giga/*
+canvas/static/share/*.jpg
+frontend/static/manifest.json
+/worker/tmp/*
+
+packages/video-processor/media
+packages/video-processor/output/*.mp4
+
+#TODO uncomment this if you are minifying images
+#frontend/src/assets/images/
+
+
+#terraform
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
+# .tfvars files are managed as part of configuration and so should be included in
+# version control.
+#
+# example.tfvars
+*credentials.auto.tfvars.json
+*ssm.auto.tfvars.json
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+*config.env.json*
+*__local*.sh
+
+# Include override files you do wish to add to version control using negated pattern
+#
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+# Tmp files to always-ignore extensions
+
+.data/
+.ssl/
+.secrets/
+.env
+.env.*
+!.env.*sample
+
+local.*.Dockerfile
+local.*.js
+
+
+terraform/modules/functions/files/*.zip
