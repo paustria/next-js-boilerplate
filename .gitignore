@@ -9,6 +9,7 @@
 .deploy/
 # OS
 .DS_Store
+.next
 Thumbs.db
 /ae/
 # Editors
